@@ -5,6 +5,12 @@
 - `runninghub.js`：Tampermonkey 脚本（RunningHub 页面内抓包/模板/资源库增强）
 - `webapp/`：本地 Web 应用（模板库、cookies profile 管理、资源上传、并发生成、任务队列、下载与解压、预览）
 
+## 安装插件（用于获取模板）
+
+### 一键安装（推荐）
+
+- 安装链接：[runninghub.user.js](https://github.com/V1an1337/runninghubHelper/raw/refs/heads/main/runninghub.user.js)
+
 ## 快速开始（本地 Web）
 
 ### 1) 安装依赖 并 启动
