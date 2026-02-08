@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TokenMaster Web</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="logo">TM</div>
+      <div>
+        <div class="title">TokenMaster Web</div>
+        <div class="sub">RunningHub 模板 / Cookies / 并发生成</div>
+      </div>
+    </div>
+    <div class="status" id="status"></div>
+  </header>
+
+  <main class="layout">
+    <nav class="sidebar">
+      <button class="navbtn active" data-view="templates">模板</button>
+      <button class="navbtn" data-view="cookies">Cookies</button>
+      <button class="navbtn" data-view="resources">资源库</button>
+      <button class="navbtn" data-view="generate">生成</button>
+      <button class="navbtn" data-view="jobs">任务</button>
+      <button class="navbtn" data-view="downloads">下载</button>
+      <button class="navbtn" data-view="settings">设置</button>
+    </nav>
+
+    <section class="content">
+      <div class="view" id="view-templates"></div>
+      <div class="view" id="view-cookies" style="display:none;"></div>
+      <div class="view" id="view-resources" style="display:none;"></div>
+      <div class="view" id="view-generate" style="display:none;"></div>
+      <div class="view" id="view-jobs" style="display:none;"></div>
+      <div class="view" id="view-downloads" style="display:none;"></div>
+      <div class="view" id="view-settings" style="display:none;"></div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="modal" style="display:none;">
+    <div class="modal">
+      <div class="modal-top">
+        <div class="modal-title" id="modal-title"></div>
+        <button class="btn danger" id="modal-close">关闭</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

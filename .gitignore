@@ -1,0 +1,8 @@
+references/*
+*pycache*
+*.pyc
+webapp/data/*
+webapp/downloads/*
+webapp/resource_files/*
+*.bat
+.venv/*
