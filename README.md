@@ -5,6 +5,14 @@
 - `runninghub.js`：Tampermonkey 脚本（RunningHub 页面内抓包/模板/资源库增强）
 - `webapp/`：本地 Web 应用（模板库、cookies profile 管理、资源上传、并发生成、任务队列、下载与解压、预览）
 
+<img width="1920" height="964" alt="image" src="https://github.com/user-attachments/assets/9c05a866-c692-435d-aa46-6a32e3e17952" />
+<img width="1226" height="650" alt="image" src="https://github.com/user-attachments/assets/d81eee54-cb72-48d7-b4b0-e096fdffd860" />
+<img width="1920" height="795" alt="image" src="https://github.com/user-attachments/assets/9512ad33-129c-45b8-a2cc-4409fc21a966" />
+<img width="1920" height="780" alt="image" src="https://github.com/user-attachments/assets/d28b107c-a6e2-4d35-a638-73b7cf10ec64" />
+
+
+
+
 ## 安装插件（用于获取模板）
 
 ### 一键安装（推荐）
