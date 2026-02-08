@@ -51,7 +51,7 @@ python .\run_webapp.py
 - `inputs[]` 支持可视化表格渲染与编辑
 
 ### Cookies（Profiles）
-
+**需配合[TokenMaster](https://github.com/V1an1337/TokenMaster)使用，只支持TokenMaster格式的cookie信息**
 - 导入 `cookies.txt`（单条）或 `multicookies.txt`（多条）格式
 - 每条 cookies 支持刷新 `totalCoin`（余额/积分），用于生成页下拉框展示
 
